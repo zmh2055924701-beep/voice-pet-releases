@@ -1,0 +1,8 @@
+{
+  "version": "1.9.1",
+  "url": "https://raw.githubusercontent.com/zmh2055924701-beep/voice-pet-releases/main/firmware/voice-pet-1.9.1-signed.bin",
+  "size": 2038736,
+  "sha256": "60e4c35ad854d7a89af00ab8922d34d7dbda3f5dec9d3aa06ac570c5c6783b47",
+  "signed": true,
+  "signature": "ECDSA-P256-SHA256"
+}
