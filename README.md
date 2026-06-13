@@ -8,7 +8,7 @@ This repository hosts signed firmware for the Voice Pet device.
 - Firmware is downloaded over HTTPS and verified on-device before activation.
 - A failed download or invalid signature leaves the currently running firmware intact.
 
-Current release: `1.9.1`
+Current release: `1.9.2`
 
 ## Device update flow
 
