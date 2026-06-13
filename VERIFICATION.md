@@ -41,3 +41,23 @@ running firmware.
 
 With the saved Wi-Fi unavailable, the board reported `WI-FI CONNECTION FAILED` and
 continued running its offline features without modifying the active firmware.
+
+## Voice Pet 1.9.2 touch mapping fix
+
+Verified on the same ESP32-S3 development board on 2026-06-13.
+
+- Source version: `1.9.2`
+- Compiled application size: `2038087` bytes
+- Signed firmware size: `2038752` bytes
+- Published signed firmware SHA-256:
+  `42c1aa6f441cb965c012532b635382fd20cdf31f81ad15510b9571ad648a80fe`
+- The public firmware download matched the manifest size and SHA-256.
+
+Physical touch verification after installing `1.9.2`:
+
+```text
+Left physical touch pad  -> T1 active
+Right physical touch pad -> T2 active
+```
+
+This confirms that the left and right touch bindings are no longer reversed.
